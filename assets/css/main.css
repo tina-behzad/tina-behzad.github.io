@@ -2035,6 +2035,16 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.icon.google-scholar:before {
+			content: '';
+			font-family: inherit;
+			width: 1em;
+			height: 1em;
+			background-color: currentColor;
+			-webkit-mask: url("../../images/google-scholar.svg") no-repeat center / contain;
+			mask: url("../../images/google-scholar.svg") no-repeat center / contain;
+		}
+
 /* Image */
 
 	.image {
